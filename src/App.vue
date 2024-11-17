@@ -1,9 +1,16 @@
-<script setup>
-// import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <main>
-    <!-- <TheWelcome /> -->
-  </main>
+  <div id="app">
+    <ButtonStyles />
+  </div>
 </template>
+
+<script>
+import ButtonStyles from "./components/ButtonStyles.vue";
+
+export default {
+  name: "App",
+  components: {
+    ButtonStyles,
+  },
+};
+</script>
