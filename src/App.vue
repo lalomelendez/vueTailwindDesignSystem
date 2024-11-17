@@ -1,16 +1,11 @@
 <template>
   <div id="app">
-    <ButtonStyles />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import ButtonStyles from "./components/ButtonStyles.vue";
-
 export default {
   name: "App",
-  components: {
-    ButtonStyles,
-  },
 };
 </script>
