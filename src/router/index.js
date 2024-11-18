@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../components/Home.vue";
 import Buttons from "../components/Buttons.vue";
-import Cards from "../components/Cards.vue";
+import Cards from "../components/Cards.vue"; // Ensure Cards is imported
 import Forms from "../components/Forms.vue";
 import MessagesAlerts from "../components/MessagesAlerts.vue";
 import PhotoGallery from "../components/PhotoGallery.vue";
@@ -13,7 +13,7 @@ import Tooltips from "../components/Tooltips.vue";
 const routes = [
   { path: "/", component: Home },
   { path: "/buttons", component: Buttons },
-  { path: "/cards", component: Cards },
+  { path: "/cards", component: Cards }, // Ensure Cards route is defined
   { path: "/forms", component: Forms },
   { path: "/messages-alerts", component: MessagesAlerts },
   { path: "/photo-gallery", component: PhotoGallery },
